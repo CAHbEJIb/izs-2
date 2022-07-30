@@ -1,0 +1,82 @@
+.mobile {
+	@media (orientation:portrait) {
+		.section {
+			height: wm(568);
+			margin-top: wm(4);
+
+			&--four-round-corners {
+				border-radius: wm(40);
+			}
+
+			&__back-picture {}
+
+			&__content {}
+		}
+
+		.section-content {
+
+			&__button {
+				min-width: wm(328);
+				max-width: wm(328);
+				min-height: wm(64);
+				max-height: wm(64);
+				border-radius: wm(38);
+				box-shadow: 0px wm(4) wm(24) rgba(0, 0, 0, 0.08);
+				left: wm(16);
+			}
+
+			&__button--back-white {
+				background: url('../img/button_white@2x_m.jpg') 0 0 / cover no-repeat;
+
+
+			}
+
+			&__button--back-blue {
+				background: url('../img/button_blue@2x_m.jpg') 0 0 / cover no-repeat;
+
+
+			}
+
+			&__button--pos-main {
+				top: wm(488);
+			}
+
+			&__button--pos-setup {
+				top: wm(404);
+			}
+		}
+
+		.section-main {
+			border-bottom-right-radius: wm(40);
+			border-bottom-left-radius: wm(40);
+			background: url('../img/main@2x_m.jpg') 0 0 / cover no-repeat;
+		}
+
+		.section-catalog {
+			background: url('../img/catalog@2x_m.jpg') 0 0 / cover no-repeat;
+		}
+
+		.section-bilders {
+			background: url('../img/builders@2x_m.jpg') 0 0 / cover no-repeat;
+		}
+
+		.section-buid {
+			background: url('../img/build@2x_m.jpg') 0 0 / cover no-repeat;
+		}
+
+		.section-landscape {
+			background: url('../img/landscape@2x_m.jpg') 0 0 / cover no-repeat;
+		}
+
+		.section-izs {
+			background: url('../img/club@2x_m.jpg') 0 0 / cover no-repeat;
+		}
+
+		.section-setup {
+			border-top-right-radius: wm(40);
+			border-top-left-radius: wm(40);
+			max-height: wm(520);
+			background: url('../img/setup@2x_m.jpg') 0 0 / cover no-repeat;
+		}
+	}
+}

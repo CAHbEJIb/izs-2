@@ -1,0 +1,341 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+article,
+aside,
+canvas,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button {
+  font-family: "Quicksand", serif;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+address,
+caption,
+th {
+  font-style: normal;
+  font-weight: normal;
+}
+
+fieldset,
+img,
+button {
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+sup {
+  font-size: 0.7em;
+  vertical-align: super;
+  line-height: 0;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+input[type=text] {
+  -webkit-appearance: none;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input::-webkit-clear-button, input::-webkit-inner-spin-button, input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+textarea {
+  -webkit-appearance: none;
+}
+
+img {
+  display: block;
+  word-break: break-all;
+  max-width: 100%;
+}
+
+b,
+strong {
+  font-weight: 500;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+
+::-ms-clear {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@-webkit-keyframes visible {
+  0% {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  1% {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  50% {
+    display: block;
+    opacity: 0.5;
+    visibility: visible;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes visible {
+  0% {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  1% {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  50% {
+    display: block;
+    opacity: 0.5;
+    visibility: visible;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@-webkit-keyframes hidden {
+  0% {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+  50% {
+    display: block;
+    opacity: 0.5;
+    visibility: visible;
+  }
+  99% {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes hidden {
+  0% {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+  50% {
+    display: block;
+    opacity: 0.5;
+    visibility: visible;
+  }
+  99% {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.main {
+  background: #000;
+}
+.main .section {
+  position: relative;
+  width: 100%;
+  height: 61.16vw;
+  overflow: hidden;
+  margin-top: 0.695vw;
+}
+.main .section:first-child {
+  margin-top: 0;
+}
+.main .section__content {
+  width: 100%;
+  height: 100%;
+}
+.main .section--four-round-corners {
+  border-radius: 5.56vw;
+}
+.main .section-main {
+  border-bottom-right-radius: 5.56vw;
+  border-bottom-left-radius: 5.56vw;
+  background: url("../img/main@2x.jpg") 0 0/cover no-repeat;
+}
+.main .section-catalog {
+  background: url("../img/catalog@2x.jpg") 0 0/cover no-repeat;
+}
+.main .section-bilders {
+  background: url("../img/builders@2x.jpg") 0 0/cover no-repeat;
+}
+.main .section-buid {
+  background: url("../img/build@2x.jpg") 0 0/cover no-repeat;
+}
+.main .section-landscape {
+  background: url("../img/landscape@2x.jpg") 0 0/cover no-repeat;
+}
+.main .section-izs {
+  background: url("../img/club@2x.jpg") 0 0/cover no-repeat;
+}
+.main .section-setup {
+  border-top-right-radius: 5.56vw;
+  border-top-left-radius: 5.56vw;
+  max-height: 33.36vw;
+  background: url("../img/setup@2x.jpg") 0 0/cover no-repeat;
+}
+.main .section-content__button {
+  display: block;
+  min-width: 18.348vw;
+  min-height: 4.448vw;
+  border-radius: 2.502vw;
+  box-shadow: 0px 0.278vw 1.668vw rgba(0, 0, 0, 0.08);
+  position: absolute;
+  z-index: 2;
+  overflow: hidden;
+  left: 70.89vw;
+}
+.main .section-content__button:active {
+  transform: translate(0.139vw, 0.139vw);
+}
+.main .section-content__button--back-white {
+  background: url("../img/button_white@2x.jpg") 0 0/cover no-repeat;
+}
+.main .section-content__button--back-blue {
+  background: url("../img/button_blue@2x.jpg") 0 0/cover no-repeat;
+}
+.main .section-content__button--pos-main {
+  top: 39.476vw;
+}
+.main .section-content__button--pos-setup {
+  top: 23.491vw;
+}
+
+@media (orientation: portrait) {
+  .mobile .section {
+    height: 157.7336vw;
+    margin-top: 1.1108vw;
+  }
+  .mobile .section--four-round-corners {
+    border-radius: 11.108vw;
+  }
+  .mobile .section-content__button {
+    min-width: 91.0856vw;
+    max-width: 91.0856vw;
+    min-height: 17.7728vw;
+    max-height: 17.7728vw;
+    border-radius: 10.5526vw;
+    box-shadow: 0px 1.1108vw 6.6648vw rgba(0, 0, 0, 0.08);
+    left: 4.4432vw;
+  }
+  .mobile .section-content__button--back-white {
+    background: url("../img/button_white@2x_m.jpg") 0 0/cover no-repeat;
+  }
+  .mobile .section-content__button--back-blue {
+    background: url("../img/button_blue@2x_m.jpg") 0 0/cover no-repeat;
+  }
+  .mobile .section-content__button--pos-main {
+    top: 135.5176vw;
+  }
+  .mobile .section-content__button--pos-setup {
+    top: 112.1908vw;
+  }
+  .mobile .section-main {
+    border-bottom-right-radius: 11.108vw;
+    border-bottom-left-radius: 11.108vw;
+    background: url("../img/main@2x_m.jpg") 0 0/cover no-repeat;
+  }
+  .mobile .section-catalog {
+    background: url("../img/catalog@2x_m.jpg") 0 0/cover no-repeat;
+  }
+  .mobile .section-bilders {
+    background: url("../img/builders@2x_m.jpg") 0 0/cover no-repeat;
+  }
+  .mobile .section-buid {
+    background: url("../img/build@2x_m.jpg") 0 0/cover no-repeat;
+  }
+  .mobile .section-landscape {
+    background: url("../img/landscape@2x_m.jpg") 0 0/cover no-repeat;
+  }
+  .mobile .section-izs {
+    background: url("../img/club@2x_m.jpg") 0 0/cover no-repeat;
+  }
+  .mobile .section-setup {
+    border-top-right-radius: 11.108vw;
+    border-top-left-radius: 11.108vw;
+    max-height: 144.404vw;
+    background: url("../img/setup@2x_m.jpg") 0 0/cover no-repeat;
+  }
+}

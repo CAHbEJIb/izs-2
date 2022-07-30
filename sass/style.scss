@@ -1,0 +1,16 @@
+// @font-face {
+//     font-family: 'Muller';
+//     src: local('Muller Regular'),
+//         url('../fonts/Muller/Muller-Regular.woff') format('woff'),
+//         url('../fonts/Muller/Muller-Regular.ttf') format('truetype');
+//     font-style: normal;
+//     font-weight: Regular;
+//     font-display: block;
+// }
+
+@import "_norm.scss";
+@import "_animation.scss";
+@import "_color.scss";
+@import "_global.scss";
+@import "_main.scss";
+@import "_mobile.scss";

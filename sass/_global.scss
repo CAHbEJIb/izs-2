@@ -1,0 +1,9 @@
+@function w($weight) {
+	@return ($weight*0.0695vw)
+}
+
+;
+
+@function wm($weight) {
+	@return ($weight*0.2777vw)
+}
